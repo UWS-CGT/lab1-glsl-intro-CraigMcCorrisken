@@ -12,3 +12,5 @@ void main(void)
 	out_Color = vec4(ex_Color,1.0);
 	
 }
+
+// making a change and using git gui

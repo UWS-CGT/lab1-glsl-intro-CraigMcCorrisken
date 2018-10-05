@@ -33,9 +33,9 @@ GLfloat vertices[] = {	-1.0f,0.0f,0.0f,
 						0.0f,1.0f,0.0f,
 						0.0f,0.0f,0.0f,
 
-	0.0f,0.0f,0.0f,
-	0.0f,-1.0f,0.0f,
-	1.0f,0.0f,0.0f };
+						0.0f,0.0f,0.0f,
+						0.0f,-1.0f,0.0f,
+						1.0f,0.0f,0.0f };
 
 GLfloat colours[] = {	1.0f, 0.0f, 0.0f,
 						0.0f, 1.0f, 0.0f,
@@ -195,7 +195,7 @@ void draw(SDL_Window * window) {
 	glClear(GL_COLOR_BUFFER_BIT);
 
 	glBindVertexArray(meshObjects[0]);	// Bind mesh VAO
-	glDrawArrays(GL_TRIANGLES, 0, 6);	// draw 3 vertices (one triangle)
+	glDrawArrays(GL_TRIANGLES, 0, 6);	// draw 3 vertices (two triangles)
 	
 	//glBindVertexArray(meshObjects[1]);	// Bind mesh VAO
 	//glDrawArrays(GL_TRIANGLES, 0, 3);	// draw 3 vertices (one triangle)

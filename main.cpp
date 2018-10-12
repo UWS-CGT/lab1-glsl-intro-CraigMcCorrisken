@@ -4,7 +4,7 @@
 #include <fstream>
 #include <string>
 
-using namespace::std;
+using namespace std;
 
 #if _DEBUG
 #pragma comment(linker, "/subsystem:\"console\" /entry:\"WinMainCRTStartup\"")
@@ -296,7 +296,6 @@ int main(int argc, char *argv[])
 		//update();			// not used yet!
 		draw(hWindow);
 	}
-
 
     SDL_DestroyWindow(hWindow);
     SDL_Quit();
